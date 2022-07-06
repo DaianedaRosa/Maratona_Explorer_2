@@ -9,7 +9,21 @@ a {
 }
 
 body {
-  background: #edf2ff;
+  background-image: linear-gradient(
+    to right top,
+    #f65eb4,
+    #f460ba,
+    #f162bf,
+    #ee65c5,
+    #eb67ca,
+    #eb67cf,
+    #eb66d3,
+    #eb66d8,
+    #ee62dd,
+    #f15ee3,
+    #f45ae9,
+    #f655ef
+  );
   font-family: 'Roboto', sans-serif;
 }
 
@@ -25,7 +39,7 @@ img {
   width: 100px;
   height: 100px;
   padding: 3.7px;
-  border: #4263eb solid 4px;
+  border: #c01073 solid 4px;
 }
 
 h1 {
@@ -53,54 +67,16 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(
-    circle at 74.18% -16.45%,
-    #003239 0,
-    #003240 3.85%,
-    #003247 7.69%,
-    #00324d 11.54%,
-    #003153 15.38%,
-    #003157 19.23%,
-    #00305b 23.08%,
-    #002e5e 26.92%,
-    #002d60 30.77%,
-    #002b61 34.62%,
-    #002960 38.46%,
-    #00265f 42.31%,
-    #05235c 46.15%,
-    #1f1f59 50%,
-    #2d1b55 53.85%,
-    #381650 57.69%,
-    #41114a 61.54%,
-    #480a43 65.38%,
-    #4d043d 69.23%,
-    #510036 73.08%,
-    #54002e 76.92%,
-    #560027 80.77%,
-    #570020 84.62%,
-    #570019 88.46%,
-    #560011 92.31%,
-    #540507 96.15%,
-    #510b00 100%
-  );
+  background: #c01073;
   color: white;
   text-transform: uppercase;
   font-size: 14px;
 
   margin-bottom: 16px;
   border-radius: 6px;
-  transition: background 500ms;
+  transition: background 400ms;
 }
 
 ul li a:hover {
-  background: radial-gradient(
-    circle at 107.92% 9.44%,
-    #00255e 0,
-    #00235d 16.67%,
-    #13215b 33.33%,
-    #1f1f59 50%,
-    #281d57 66.67%,
-    #2f1a54 83.33%,
-    #361751 100%
-  );
+  background: #c7839e;
 }
