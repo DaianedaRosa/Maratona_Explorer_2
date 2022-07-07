@@ -11,18 +11,11 @@ a {
 body {
   background-image: linear-gradient(
     to right top,
-    #f65eb4,
-    #f460ba,
-    #f162bf,
-    #ee65c5,
-    #eb67ca,
-    #eb67cf,
-    #eb66d3,
-    #eb66d8,
-    #ee62dd,
-    #f15ee3,
-    #f45ae9,
-    #f655ef
+    #e56893,
+    #d25390,
+    #bd3f8d,
+    #a62c8c,
+    #8b1b8b
   );
   font-family: 'Roboto', sans-serif;
 }
@@ -31,9 +24,15 @@ body {
   text-align: center;
   width: 300px;
   margin: 60px auto;
+  box-shadow: 1px 2px 18px 12px rgba(214, 9, 95, 0.84);
+  -webkit-box-shadow: 1px 2px 18px 12px rgba(214, 9, 95, 0.84);
+  -moz-box-shadow: 1px 2px 18px 12px rgba(214, 9, 95, 0.84);
+  background: #f2d2ec;
+  border-radius: 10px;
 }
 
 img {
+  margin-top: 8px;
   width: 100%;
   border-radius: 50%;
   width: 100px;
@@ -44,8 +43,9 @@ img {
 
 h1 {
   font-size: 32px;
-  color: #00082f;
-  margin-top: 24px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-top: 16px;
   margin-bottom: 8px;
 }
 
@@ -60,6 +60,7 @@ p {
 ul {
   list-style: none;
   margin: 48px 0;
+  padding: 16px 34px;
 }
 
 ul li a {
